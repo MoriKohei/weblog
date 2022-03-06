@@ -1,15 +1,28 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+/* header と footer にそれぞれの高さを設定
+2 * This is a manifest file that'll be compiled into application.css, which will include all the files
+3 * listed below.
+4 *
+5 * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+6 * vendor/assets/stylesheets directory can be referenced here using a relative path.
+7 *
+8 * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+9 * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+10 * files in this directory. Styles in this file should be added after the last require_* statement.
+11 * It is generally better to create a new file per style scope.
+12 *
+13 *= require_tree .
+14 *= require_self
+15 */
+
+main {
+  min-height: calc(100vh - 120px);
+  overflow: hidden;
+}
+
+header {
+  height: 60px;
+}
+
+footer {
+  height: 60px;
+}
