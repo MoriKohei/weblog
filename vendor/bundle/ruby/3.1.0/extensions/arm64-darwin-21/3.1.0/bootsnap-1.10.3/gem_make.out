@@ -1,0 +1,15 @@
+current directory: /Users/komr/Code/Ruby/weblog/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.10.3/ext/bootsnap
+/Users/komr/.rbenv/versions/3.1.1/bin/ruby -I /Users/komr/.rbenv/versions/3.1.1/lib/ruby/3.1.0 -r ./siteconf20220220-68650-xgzmds.rb extconf.rb
+creating Makefile
+
+current directory: /Users/komr/Code/Ruby/weblog/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.10.3/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/komr/Code/Ruby/weblog/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.10.3/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/komr/Code/Ruby/weblog/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.10.3/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20220220-68650-ai95y4/bootsnap
